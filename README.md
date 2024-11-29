@@ -14,6 +14,7 @@ Download the current version of Burp Suite Community here: https://portswigger.n
 * https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure
 * https://portswigger.net/web-security/access-control/lab-insecure-direct-object-references
 
+
 ## Medium
 * https://portswigger.net/web-security/file-path-traversal/lab-validate-start-of-path
 * https://portswigger.net/web-security/file-path-traversal/lab-sequences-stripped-non-recursively
@@ -28,20 +29,25 @@ Download the current version of Burp Suite Community here: https://portswigger.n
 * https://portswigger.net/web-security/sql-injection/lab-login-bypass
 * https://portswigger.net/web-security/nosql-injection/lab-nosql-injection-bypass-authentication
 * https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
-
+* https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-web-shell-upload
+* https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-content-type-restriction-bypass
 
 ## Medium
 * https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft
 * https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic
+* https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-path-traversal
+
+## Hard
+* https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition
 
 # A04:2021 Insecure Design
 
 ## Easy
-https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls
-https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-enforcement-of-business-rules
+* https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls
+* https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-enforcement-of-business-rules
 
 ## Medium
-https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine
+* https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine
 
 # A05:2021 Security Misconfigurations
 
@@ -58,7 +64,7 @@ https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authen
 
 ## Easy
 * https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-simple-bypass
-https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses
+* https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-different-responses
 
 ## Medium
 * https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine
@@ -66,6 +72,12 @@ https://portswigger.net/web-security/authentication/password-based/lab-username-
 * https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-broken-logic
 
 # A08:2021 Software and Data Integrity Failures
+
+## Easy
+* https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-modifying-serialized-objects
+
+## Medium
+* https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-exploiting-java-deserialization-with-apache-commons
 
 # A09:2021 Logging and Monitoring Failures
 
