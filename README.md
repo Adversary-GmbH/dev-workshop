@@ -71,6 +71,13 @@ Download the current version of Burp Suite Community here: https://portswigger.n
 * https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses
 * https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-broken-logic
 
+# OAuth
+
+## Medium
+
+* https://portswigger.net/web-security/oauth/lab-oauth-account-hijacking-via-redirect-uri
+* https://portswigger.net/web-security/oauth/lab-oauth-stealing-oauth-access-tokens-via-an-open-redirect
+
 # A08:2021 Software and Data Integrity Failures
 
 ## Easy
