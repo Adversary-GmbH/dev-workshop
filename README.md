@@ -68,10 +68,13 @@ Download the current version of Burp Suite Community here: https://portswigger.n
 
 ## Medium
 * https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine
-* https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses
 * https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-broken-logic
 
+* https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses (⚠️ Needs special Burp functionality)
+
 # OAuth
+
+⚠️ Ask Martin to explain the exploit server.
 
 ## Medium
 
