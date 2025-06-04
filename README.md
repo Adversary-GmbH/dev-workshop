@@ -6,7 +6,7 @@ Challenges/Chapters marked with ⚠️ need some special feature/background know
 Set up your account at https://portswigger.net/users/register
 
 ## Tool
-1. Download the current version of Caido from caido.io
+1. Download the current version of Caido from https://caido.io/download
 2. Install and run it
 3. When you see the instance "localhost:8080", click "Start"
 4. You're prompted for a login, we can "continue as guest" for today
