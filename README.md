@@ -1,10 +1,19 @@
 # Setup
 
+Challenges/Chapters marked with ⚠️ need some special feature/background knowledge we haven't talked about. Ask Martin for details.
+
 ## Account
 Set up your account at https://portswigger.net/users/register
 
 ## Tool
-Download the current version of Burp Suite Community here: https://portswigger.net/burp/releases/community/latest
+1. Download the current version of Caido from caido.io
+2. Install and run it
+3. When you see the instance "localhost:8080", click "Start"
+4. You're prompted for a login, we can "continue as guest" for today
+
+## Wordlists
+If you need a list of $SOMETHING, this one should be enough for our needs today:
+https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Discovery/Web-Content/common.txt
 
 
 # A01:2021 Broken Access Controls
@@ -38,7 +47,7 @@ Download the current version of Burp Suite Community here: https://portswigger.n
 * https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-path-traversal
 
 ## Hard
-* https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition
+* https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition (⚠️ Needs special Burp functionality)
 
 # A04:2021 Insecure Design
 
