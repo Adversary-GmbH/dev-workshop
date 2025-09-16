@@ -2,8 +2,12 @@
 
 Challenges/Chapters marked with ⚠️ need some special feature/background knowledge we haven't talked about. Ask Martin for details.
 
-## Account
-Set up your account at https://portswigger.net/users/register
+## Accounts
+1. Set up your account at https://portswigger.net/users/register
+2. Use the following [Link](https://id.secdim.com/account/login?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2d1aWQiOjQ0MjI2NzIzNTQsImV4cCI6MTc1MTI3MTgxNX0.eBRPld6r7stR9qQ_q4J1N33d2R_6zc1oGR4bYnBW24MJ6Ovt9BuU5fnijn3Z7LaCkSygETpIJ1qKi-ugCJObhhqE-pdrNfL-E46P1l2iVe-tXmHQVcAISfSLvQU-9NWaRb1G2Drd0BhFVmA2KfUqw0Fh2N4UQ9pWm1KilAZ-doOMrT8CSyW8ugFdvCJsXSvJfAK6ynzzH1P9nFQZTh-ZrVeC83gtaSJ6Zwc4Q2QqjTsF-aafdEqkp87E5gh-psm03bZGSPBrbFg7fL3ccBZRLcP33rjRXSgxrL6srM8QH0RKYWFpttJlsSeoXQrWpYHyqlrlcXBraoxTPMTL-Z17qZAryF0uxQUqjaLkZ6SlzGephe53Gr9Zbzudwv-c1Fd0xGxJj9KePe85E519c3wPAvkK-8HOvVdeb1hvYqMREvvUjk4nv_D0Bj2DAuN8Uq9F9dkE99_0DkH1IPp2Tq3Wtzyp5bHVbc4uRPhedWabioW0ALvZitsN8-pTvIMJOEx4QroVoCtAr6CPHh8IZokLKME9AIDWLpH9iGnpJe4iHAtWDKTeRGPWN7YLFC6fi0zwru32bkctSQ9gCoDU1Jwqvo7SqEPSBexQV9XZ23h8hqs9O-crYgpEh7za4nHvwuqYJ5OKevI51lL8t19zMNCDiJmdSk9nMEO-dyLZUFQAHWc) to create an Account on SecDim
+```
+https://id.secdim.com/account/login?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2d1aWQiOjQ0MjI2NzIzNTQsImV4cCI6MTc1MTI3MTgxNX0.eBRPld6r7stR9qQ_q4J1N33d2R_6zc1oGR4bYnBW24MJ6Ovt9BuU5fnijn3Z7LaCkSygETpIJ1qKi-ugCJObhhqE-pdrNfL-E46P1l2iVe-tXmHQVcAISfSLvQU-9NWaRb1G2Drd0BhFVmA2KfUqw0Fh2N4UQ9pWm1KilAZ-doOMrT8CSyW8ugFdvCJsXSvJfAK6ynzzH1P9nFQZTh-ZrVeC83gtaSJ6Zwc4Q2QqjTsF-aafdEqkp87E5gh-psm03bZGSPBrbFg7fL3ccBZRLcP33rjRXSgxrL6srM8QH0RKYWFpttJlsSeoXQrWpYHyqlrlcXBraoxTPMTL-Z17qZAryF0uxQUqjaLkZ6SlzGephe53Gr9Zbzudwv-c1Fd0xGxJj9KePe85E519c3wPAvkK-8HOvVdeb1hvYqMREvvUjk4nv_D0Bj2DAuN8Uq9F9dkE99_0DkH1IPp2Tq3Wtzyp5bHVbc4uRPhedWabioW0ALvZitsN8-pTvIMJOEx4QroVoCtAr6CPHh8IZokLKME9AIDWLpH9iGnpJe4iHAtWDKTeRGPWN7YLFC6fi0zwru32bkctSQ9gCoDU1Jwqvo7SqEPSBexQV9XZ23h8hqs9O-crYgpEh7za4nHvwuqYJ5OKevI51lL8t19zMNCDiJmdSk9nMEO-dyLZUFQAHWc
+```
 
 ## Tool
 1. Download the current version of Caido from https://caido.io/download
@@ -40,20 +44,25 @@ https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Disc
 * https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
 * https://portswigger.net/web-security/file-upload/lab-file-upload-remote-code-execution-via-web-shell-upload
 * https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-content-type-restriction-bypass
+* https://portswigger.net/web-security/llm-attacks/lab-exploiting-llm-apis-with-excessive-agency
 
 ## Medium
 * https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft
 * https://portswigger.net/web-security/server-side-template-injection/exploiting/lab-server-side-template-injection-basic
 * https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-path-traversal
+* https://portswigger.net/web-security/llm-attacks/lab-indirect-prompt-injection
 
 ## Hard
-* https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition (⚠️ Needs special Burp functionality)
+* https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-race-condition (⚠️ Needs special functionality)
+
+## LLMs
+- https://gandalf.lakera.ai
 
 # A04:2021 Insecure Design
 
 ## Easy
 * https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls
-* https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-enforcement-of-business-rules
+* https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-enforcement-of-business-rules (this one might be a bit far fetched)
 
 ## Medium
 * https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine
@@ -78,8 +87,6 @@ https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Disc
 ## Medium
 * https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine
 * https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-broken-logic
-
-* https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-subtly-different-responses (⚠️ Needs special Burp functionality)
 
 # OAuth
 
